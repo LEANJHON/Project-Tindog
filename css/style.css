@@ -1,7 +1,8 @@
 .gradient-background {
-  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background: linear-gradient(300deg, #ff8400, #ff4c68, #ef8172);
   background-size: 180% 180%;
   animation: gradient-animation 18s ease infinite;
+  
 }
 
 @keyframes gradient-animation {
@@ -26,6 +27,13 @@
   height: 100px;
   border-radius: 50%;
 }
-.img {
-  margi
+
+.text-gradient {
+  background: linear-gradient(300deg, #ff8400, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent; /* Set the text color to transparent */
+
 }
